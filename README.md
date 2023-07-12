@@ -19,4 +19,4 @@ Take the first part, `d320cb07-ea1c-459b-986f-8da0919f9790` and put it in `ynabI
 6. Run `node .` to pull all transactions into YNAB, and run it again to start the cron job.
 
 ## 🕷️ Known Bugs
-1. Outward Transfers (as in moving money from one account to another) currently show up as an addition of money, so currently some tranactions may not be copied correctly.
+1. Outward Transfers (as in moving money from one account to another) currently show up as an addition of money, so currently some tranactions may not be copied correctly. [This seems to be a bank issue](https://hackclub.slack.com/archives/CN523HLKW/p1689192572237309).
