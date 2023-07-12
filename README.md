@@ -11,7 +11,9 @@ https://app.ynab.com/d320cb07-ea1c-459b-986f-8da0919f9790/accounts/d5b8ac26-e058
 
 Take the first part, `d320cb07-ea1c-459b-986f-8da0919f9790` and put it in `ynabID`. Then, take the second part (`d5b8ac26-e058-4a80-8d5c-23d7013da426`) in `accountID`. This will look diffrent for each user
 3. Enable transparrency mode and take your bank URL's slug and place it into `bankID`
+
 ![](https://doggo.ninja/SJD8C3.png)
+
 4. Get a Personal Access Token from the [YNAB settings page](https://app.ynab.com/settings/developer), and paste it into the `token` slot.
 5. `(npm/yarn) install` the package
 6. Run `node .` to pull all transactions into YNAB, and run it again to start the cron job.
