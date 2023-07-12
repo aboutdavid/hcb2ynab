@@ -1,0 +1,10 @@
+{
+  "name": "hcb2ynab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "sync-request": "^6.1.0",
+    "ynab": "^1.55.0"
+  }
+}
